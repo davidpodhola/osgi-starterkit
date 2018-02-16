@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src/java"/>
-	<classpathentry kind="src" path="src/scala"/>
 	<classpathentry kind="src" path="src/kotlin"/>
-	<classpathentry kind="src" path="src/resources"/>
 	<classpathentry kind="src" path="test/java"/>
 	<classpathentry kind="src" path="test/scala"/>
 	<classpathentry kind="src" path="test/resources"/>
