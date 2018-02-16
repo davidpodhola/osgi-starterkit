@@ -12,5 +12,5 @@ class Status {
     val status: String
         @GET
         @Produces("text/plain")
-        get() = "This is active Kotlin code with server time " + LocalDateTime.now() + " source from 11:43 with " + blablabla();
+        get() = "This is active Kotlin code with server time " + LocalDateTime.now() + " source from 12:03 with " + blablabla();
 }
