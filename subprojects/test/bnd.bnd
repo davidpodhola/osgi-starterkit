@@ -1,0 +1,5 @@
+#
+#   TEST
+#
+Export-Package: \
+    software.hsharp.demo*

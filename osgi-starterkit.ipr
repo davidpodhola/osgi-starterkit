@@ -28,9 +28,11 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/subprojects/example" />
+            <option value="$PROJECT_DIR$/subprojects/test" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useAutoImport" value="true" />
       </GradleProjectSettings>
     </option>
   </component>
@@ -64,10 +66,15 @@
     <option name="LOCALE" />
     <option name="OPEN_IN_BROWSER" value="true" />
   </component>
+  <component name="Kotlin2JsCompilerArguments">
+    <option name="sourceMapEmbedSources" />
+    <option name="sourceMapPrefix" />
+  </component>
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/subprojects/example/example.iml" filepath="$PROJECT_DIR$/subprojects/example/example.iml" />
       <module fileurl="file://$PROJECT_DIR$/osgi-starterkit.iml" filepath="$PROJECT_DIR$/osgi-starterkit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/subprojects/test/test.iml" filepath="$PROJECT_DIR$/subprojects/test/test.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
@@ -278,40 +285,40 @@
         <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.20.0-GA/d8fdc08a455bc0b28bc0bed1f0d032d935cee8e1/javassist-3.20.0-GA-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Gradle: org.jetbrains.kotlin:kotlin-osgi-bundle:1.1.3-2">
+    <library name="Gradle: org.jetbrains.kotlin:kotlin-osgi-bundle:1.2.21">
       <CLASSES>
-        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-osgi-bundle/1.1.3-2/216570a70f28c1d56725a13ca22ef6af4c82ccc7/kotlin-osgi-bundle-1.1.3-2.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-osgi-bundle/1.2.21/e8164deafcff0e1da886f942df6e1b7ada16c7bb/kotlin-osgi-bundle-1.2.21.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
-        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-osgi-bundle/1.1.3-2/665116a2e6833185f8797ba617d2d3a715a085eb/kotlin-osgi-bundle-1.1.3-2-sources.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-osgi-bundle/1.2.21/48a4c65fe31579f79507a785bd8ed46a63cd1a7f/kotlin-osgi-bundle-1.2.21-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.1.3-2">
+    <library name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.21">
       <CLASSES>
-        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.1.3-2/9b44c139a4ec57031e0c84ba0e49ba16df6d801c/kotlin-stdlib-1.1.3-2.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.21/d64187eb2d9d1521be3421aa8c6774a8625cdde8/kotlin-stdlib-1.2.21.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
-        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.1.3-2/fd533d031dcdf086dfc75cfb9003c4349ed829aa/kotlin-stdlib-1.1.3-2-sources.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.21/795e111c612ba96d0175f5705291228ca8167dc8/kotlin-stdlib-1.2.21-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.1.3-2">
+    <library name="Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.2.21">
       <CLASSES>
-        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-junit/1.1.3-2/bcb250577cae07c4f076dfd37156bb7a96deb31/kotlin-test-junit-1.1.3-2.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-junit/1.2.21/413c5974f7b833a8915bc0708cb81d9b3a3dfc8a/kotlin-test-junit-1.2.21.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
-        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-junit/1.1.3-2/8c7cc1ca6d1a70309614b268481c816e223342f7/kotlin-test-junit-1.1.3-2-sources.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-junit/1.2.21/4ef64374075375da5e219d4ea942b71696a70977/kotlin-test-junit-1.2.21-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Gradle: org.jetbrains.kotlin:kotlin-test:1.1.3-2">
+    <library name="Gradle: org.jetbrains.kotlin:kotlin-test:1.2.21">
       <CLASSES>
-        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test/1.1.3-2/bfde381a4485e78d3542ec46f231c5e0e22aea28/kotlin-test-1.1.3-2.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test/1.2.21/ef7fb68f47996674ceca66f515b4cfa40981d241/kotlin-test-1.2.21.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
-        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test/1.1.3-2/77ef994111e7bc20e1c1cb19b1933df291248484/kotlin-test-1.1.3-2-sources.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test/1.2.21/678a7c423675c4574dd790dfca2554a7099473a/kotlin-test-1.2.21-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Gradle: org.jetbrains:annotations:13.0">
@@ -377,16 +384,7 @@
         <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.12/1.0.5/d12864d1a73aa540f7b624c8a92a5f48783c342c/scala-xml_2.12-1.0.5-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Gradle: org.scala-lang:scala-library:2.12.3" type="Scala">
-      <properties>
-        <option name="languageLevel" value="Scala_2_12" />
-        <compiler-classpath>
-          <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.12.3/b6b9ca202fc8405260d30e703b9790e91c75cd85/scala-compiler-2.12.3.jar" />
-          <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.12.3/a017f8f606e5f433df4f8d5efc20ce39c2fe8330/scala-reflect-2.12.3.jar" />
-          <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.12/1.0.6/e22de3366a698a9f744106fb6dda4335838cf6a7/scala-xml_2.12-1.0.6.jar" />
-          <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.3/f2e496f21af2d80b48e0a61773f84c3a76a0d06f/scala-library-2.12.3.jar" />
-        </compiler-classpath>
-      </properties>
+    <library name="Gradle: org.scala-lang:scala-library:2.12.3">
       <CLASSES>
         <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.3/f2e496f21af2d80b48e0a61773f84c3a76a0d06f/scala-library-2.12.3.jar!/" />
       </CLASSES>
@@ -422,15 +420,7 @@
         <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest_2.12/3.0.3/52caa43f57428e30788fbad38eb0c1b044f11afd/scalatest_2.12-3.0.3-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="scala-sdk-2.12.3" type="Scala">
-      <properties>
-        <compiler-classpath>
-          <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.12.3/b6b9ca202fc8405260d30e703b9790e91c75cd85/scala-compiler-2.12.3.jar" />
-          <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.12.3/a017f8f606e5f433df4f8d5efc20ce39c2fe8330/scala-reflect-2.12.3.jar" />
-          <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.12/1.0.6/e22de3366a698a9f744106fb6dda4335838cf6a7/scala-xml_2.12-1.0.6.jar" />
-          <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.3/f2e496f21af2d80b48e0a61773f84c3a76a0d06f/scala-library-2.12.3.jar" />
-        </compiler-classpath>
-      </properties>
+    <library name="scala-sdk-2.12.3">
       <CLASSES />
       <JAVADOC />
       <SOURCES />

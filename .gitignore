@@ -106,3 +106,6 @@ tools/bnd/src/*
 
 # Project generated
 subprojects/*/generated
+/.metadata/
+
+runtime/bundle/hot-deploy/subprojects/
