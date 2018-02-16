@@ -28,6 +28,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/subprojects/example" />
+            <option value="$PROJECT_DIR$/subprojects/sharedBla" />
             <option value="$PROJECT_DIR$/subprojects/test" />
           </set>
         </option>
@@ -74,6 +75,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/subprojects/example/example.iml" filepath="$PROJECT_DIR$/subprojects/example/example.iml" />
       <module fileurl="file://$PROJECT_DIR$/osgi-starterkit.iml" filepath="$PROJECT_DIR$/osgi-starterkit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/subprojects/sharedBla/sharedBla.iml" filepath="$PROJECT_DIR$/subprojects/sharedBla/sharedBla.iml" />
       <module fileurl="file://$PROJECT_DIR$/subprojects/test/test.iml" filepath="$PROJECT_DIR$/subprojects/test/test.iml" />
     </modules>
   </component>

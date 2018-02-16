@@ -3,3 +3,6 @@ project(":example").projectDir = file("subprojects/example")
 
 include "test"
 project(":test").projectDir = file("subprojects/test")
+
+include "sharedBla"
+project(":sharedBla").projectDir = file("subprojects/sharedBla")

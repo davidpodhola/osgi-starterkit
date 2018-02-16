@@ -109,3 +109,4 @@ subprojects/*/generated
 /.metadata/
 
 runtime/bundle/hot-deploy/subprojects/
+*.kotlin_module

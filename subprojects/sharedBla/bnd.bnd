@@ -1,0 +1,5 @@
+#
+#   SHAREDBLA
+#
+Export-Package: \
+    bla1*
