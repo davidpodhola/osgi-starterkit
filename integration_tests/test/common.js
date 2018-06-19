@@ -7,5 +7,5 @@ module.exports = {
     nothing: function() {
     },
 
-    API_ROOT = "http://localhost:8010/"
+    API_ROOT : function() { return "http://localhost:8010/"; }
 }

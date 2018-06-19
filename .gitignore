@@ -111,3 +111,5 @@ subprojects/*/generated
 runtime/bundle/hot-deploy/subprojects/
 *.kotlin_module
 /.recommenders/
+
+node_modules
