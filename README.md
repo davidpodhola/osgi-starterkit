@@ -54,7 +54,7 @@ Apache Felix Framework [5.6.4](http://felix.apache.org/downloads.cgi)
 
 
 ### Keeping it up
-Use `./start.sh` to start the OSGi runtime, this will also start depended library and your custom sub project bundles. This will enter the default **Gogo** command-line for runtime commands, also monitoring hot deployments of new/existing bundles. A **Web Console** is also there to help debugging. (`:8000/console/`, see password in runtime config below)
+Use `./start.sh` to start the OSGi runtime, this will also start depended library and your custom sub project bundles. This will enter the default **Gogo** command-line for runtime commands, also monitoring hot deployments of new/existing bundles. A **Web Console** is also there to help debugging. (`:8010/console/`, see password in runtime config below)
 
 ### Config
 See `/runtime/conf/config.properties` for comments. It configs both Framework and the other bundles loaded in the OSGi runtime.
@@ -79,10 +79,10 @@ All of the OSGi bundles are put under `/runtime/bundle/`, the ones under `felix`
 - Configuration Admin
 - Event Admin
 - HTTP Servlet 3.0 API
-- HTTP Service Jetty (:8000/)
+- HTTP Service Jetty (:8010/)
 - SCR (Declarative Services)
 - Log
-- [Web Console](http://felix.apache.org/documentation/subprojects/apache-felix-web-console.html#configuration) (:8000/console/, deps: commons-io, commons-fileupload)
+- [Web Console](http://felix.apache.org/documentation/subprojects/apache-felix-web-console.html#configuration) (:8010/console/, deps: commons-io, commons-fileupload)
 
 **Note**: The *Web Console* bundles are optional in production environment, it helps debug through logging during development.
 
@@ -250,7 +250,7 @@ Check within `./start.sh` to see how you can load a different set of bundles to 
 
 
 ## Demo bundle
-`:8000/example/status` (example.jar) using Jersey 2.25+.
+`:8010/example/status` (example.jar) using Jersey 2.25+.
 
 
 ## Useful links
