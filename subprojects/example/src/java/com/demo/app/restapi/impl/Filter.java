@@ -5,13 +5,17 @@ import javax.ws.rs.container.ContainerRequestContext;
 import javax.ws.rs.container.ContainerResponseContext;
 import javax.ws.rs.container.ContainerResponseFilter;
 import javax.ws.rs.core.Response;
+import javax.ws.rs.ext.Provider;
+import software.hsharp.api.helpers.cors.CORSFilter;
 
-public class Filter implements ContainerResponseFilter {
+@Provider
+public class Filter extends CORSFilter {
 
     @Override
     public void filter(ContainerRequestContext requestContext, ContainerResponseContext responseContext)
             throws IOException {
 
-        responseContext.getHeaders().add("X-Powered-By", "Daisy 1.0");
+        super.filter(requestContext, responseContext);
+        responseContext.getHeaders().add("X-Custom-Info", "osgi-kotlin-backend-scaffold");
     }
 }
