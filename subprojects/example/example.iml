@@ -143,33 +143,11 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/erp/software.hsharp.db.h2.provider/0.0.1/5dea8aa7a8913b64a4e9c0c8f8e0900092e0c7c/software.hsharp.db.h2.provider-0.0.1.jar!/"/>
-        </CLASSES>
-        <JAVADOC/>
-        <SOURCES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/erp/software.hsharp.db.h2.provider/0.0.1/f631612bc5ae0a0e001ec41f2ab5428cb2c490c5/software.hsharp.db.h2.provider-0.0.1-sources.jar!/"/>
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
           <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/erp/software.hsharp.core.models/0.0.1/87d50d62f9f6ed4055697961221de6d591e8c3e/software.hsharp.core.models-0.0.1.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
           <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/erp/software.hsharp.core.models/0.0.1/89060bb52b37abcaf7c7e2ee143f1ca70cb08409/software.hsharp.core.models-0.0.1-sources.jar!/"/>
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar:///home/david/.m2/repository/erp/software.hsharp.api.icommon/0.0.1/software.hsharp.api.icommon-0.0.1.jar!/"/>
-        </CLASSES>
-        <JAVADOC/>
-        <SOURCES>
-          <root url="jar:///home/david/.m2/repository/erp/software.hsharp.api.icommon/0.0.1/software.hsharp.api.icommon-0.0.1-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
@@ -258,6 +236,26 @@
         <JAVADOC/>
         <SOURCES>
           <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.containers/jersey-container-servlet/2.25.1/334916026e1c327d22abce2e5ee1a9b446f8206f/jersey-container-servlet-2.25.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/david/.m2/repository/erp/software.hsharp.db.h2.provider/0.0.2/software.hsharp.db.h2.provider-0.0.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.197/bb391050048ca8ae3e32451b5a3714ecd3596a46/h2-1.4.197.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.197/23b998de929dba8b42a815057517f997d8b148e9/h2-1.4.197-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
@@ -401,17 +399,6 @@
         <JAVADOC/>
         <SOURCES>
           <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.2.50/198c466da68f2cc56feae7ce634fbbe7e78539a4/kotlin-stdlib-jdk8-1.2.50-sources.jar!/"/>
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.197/bb391050048ca8ae3e32451b5a3714ecd3596a46/h2-1.4.197.jar!/"/>
-        </CLASSES>
-        <JAVADOC/>
-        <SOURCES>
-          <root url="jar:///home/david/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.197/23b998de929dba8b42a815057517f997d8b148e9/h2-1.4.197-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
