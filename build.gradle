@@ -88,18 +88,17 @@ subprojects {
         main {
             java {
                 srcDirs = ['src/java']
-                sourceSets.main.output.classesDir = 'bin'             
             }
             scala {
                 srcDirs = ['src/scala']
             }
             kotlin {
                 srcDirs = ['src/kotlin']
-                sourceSets.main.output.classesDir = 'classes/kotlin/main'             
             }
             resources {
                 srcDirs = ['src/resources']
             }
+            output.classesDir = 'bin'
         }
         test {
             java {
