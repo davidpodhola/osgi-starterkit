@@ -1,3 +1,4 @@
 dependencies {
     compile files('../sharedBla/bin')
+    compile project(':sharedBla')
 }
