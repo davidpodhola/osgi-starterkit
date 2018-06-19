@@ -49,6 +49,15 @@ subprojects {
         jcenter()
     }
 
+    task instrument(type: Copy) {
+        from(file('generated/classes/kotlin/main'))
+        into('bin')
+    }
+
+    compileKotlin.doLast {
+        tasks.instrument.execute()
+    }
+
     /* === global dependencies for sub project === */
     //subprojects don't really need to specify their own deps.
     dependencies {
