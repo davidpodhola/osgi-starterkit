@@ -78,6 +78,10 @@ subprojects {
         //libs and frameworks
         compile 'org.glassfish.jersey.containers:jersey-container-servlet:2.25.1'
 
+        // H# libs
+        compile 'erp:software.hsharp.core.models:0.0.1'
+        compile 'erp:software.hsharp.api.helpers:0.0.1'
+
         //test runners
         testCompile 'junit:junit:4.12'
         testCompile "org.scalatest:scalatest_${scala_version.split('\\.')[0..<2].join('.')}:3.0.3"
