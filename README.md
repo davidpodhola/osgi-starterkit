@@ -275,5 +275,5 @@ Check within `./start.sh` to see how you can load a different set of bundles to 
 
 
 ## License
-Copyright 2017 Tim Lauv. 
+Copyright 2017 Tim Lauv. Copyright 2018 David Podhola. 
 Under the [MIT](http://opensource.org/licenses/MIT) License.
