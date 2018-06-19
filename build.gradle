@@ -47,6 +47,8 @@ subprojects {
 
     repositories {
         jcenter()
+        mavenCentral()
+        mavenLocal()
     }
 
     task instrument(type: Copy) {
@@ -79,8 +81,13 @@ subprojects {
         compile 'org.glassfish.jersey.containers:jersey-container-servlet:2.25.1'
 
         // H# libs
-        compile 'erp:software.hsharp.core.models:0.0.1'
         compile 'erp:software.hsharp.api.helpers:0.0.1'
+
+        // H2 DB Provider
+        compile 'erp:software.hsharp.db.h2.provider:0.0.1'
+
+        // flyway migration 
+        compile group: 'org.flywaydb', name: 'flyway-core', version: '5.1.1'
 
         //test runners
         testCompile 'junit:junit:4.12'
