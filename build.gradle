@@ -83,6 +83,9 @@ subprojects {
         // H# libs
         compile 'erp:software.hsharp.api.helpers:0.0.1'
 
+        // H# H2 provider
+        compile 'erp:software.hsharp.db.h2.provider:0.0.1'
+
         // flyway migration 
         compile group: 'org.flywaydb', name: 'flyway-core', version: '5.1.1'
 
